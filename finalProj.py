@@ -192,6 +192,8 @@ def BingSearch(movieName: str) -> str:
     if len(re.findall(r"Wikipedia", result["name"])) != 0:
       movieURL = result["url"]
       break
+    else:
+      movieURL = "N/A"
   return movieURL
 
 def main():
@@ -296,8 +298,12 @@ def main():
 							endInnerLoop = False
 							endIDX = False
 				elif choice == 3:
-					print('\nLaunching ', movieURL, " in web browser...")
-					webbrowser.open_new(movieURL)
+					if (movieURL != "N/A"):
+						print('\nLaunching ', movieURL, " in web browser...")
+						webbrowser.open_new(movieURL)
+						endInnerLoop = False
+					else:
+						print(f"Cannot open current URL")
 				elif choice == 4:
 					print("Bye! :D")
 					sys.exit(0)
