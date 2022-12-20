@@ -1,3 +1,2 @@
 OMDKey = "fcf5ad1"
-YelpFusionAPIKey = "xrJBWwp4ChvUjx7agde785FyCY1TIA6H22mJHFW50vcRYV-oDMiakwsZNkRxyCzd81EI6cKO39VCH0Kd6G-kC41UlqVn3q5P5sBNhimBPtBnbnJp7HVy4NMnQLmfY3Yx"
-YelpFusionClientID = "GHIBfFElJz3O3UNyY4ovQA"
+BingNewKey = "4465becf04364019b2dc027007577cba"
