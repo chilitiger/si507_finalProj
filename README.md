@@ -17,3 +17,9 @@ To run my program, just type in
 1. Type in the movie name
 2. Choose what you want to do
 3. Type in corresponding information
+
+## Data Structure
++ Trees
++ `finalProj.py` construct the tree from stored data
++ `recommend_cache.json` with the trees
++ `finalProj.py` reads the json of the trees
