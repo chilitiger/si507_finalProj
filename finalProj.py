@@ -278,9 +278,9 @@ def main():
 			endInnerLoop = True
 			while(endInnerLoop):
 				print(f"Choice Manual: ")
-				print(f"1. Search another movie")
-				print(f"2. Explore similar movie")
-				print(f"3. Open current movie's wikipedia")
+				print(f"1. Search for another movie")
+				print(f"2. Explore the similar movie")
+				print(f"3. Open the current movie's Wikipedia")
 				print(f"4. Exit")
 				choice = int(input("\nType in your choice: "))
 				if choice == 1:
