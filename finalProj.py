@@ -301,7 +301,6 @@ def main():
 					if (movieURL != "N/A"):
 						print('\nLaunching ', movieURL, " in web browser...")
 						webbrowser.open_new(movieURL)
-						endInnerLoop = False
 					else:
 						print(f"Cannot open current URL")
 				elif choice == 4:
